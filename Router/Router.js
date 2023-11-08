@@ -4,6 +4,7 @@ import PackagesList from "../src/components/PackagesList.vue";
 import { countries } from './Countries';
 import Home from "../src/components/Home.vue"
 import OrderPage from "../src/components/OrderPage.vue"
+import OrderApproved from "../src/components/OrderApproved.vue"
 
 
 const countryUrl = countries.slug;
@@ -30,6 +31,11 @@ const routes = [
         path: '/complete-order',
         component: OrderPage,
         props: true,
+    },
+    {
+        name: "OrderApproved",
+        path: '/order-details',
+        component: OrderApproved,
     },
 ]
 const router = createRouter({

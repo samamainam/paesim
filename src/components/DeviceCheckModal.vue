@@ -6,7 +6,7 @@
           <h5 class="modal-title">Device Compatibility</h5>
           <i class="fa-regular fa-circle-xmark close" @click="closeModal"></i>
         </div>
-        <div class="modal-body">
+        <div class="modal-body modal-dialog-scrollable">
           <p><b>Check if your devices support eSIM? </b></p>
           <p>
             The list below is constantly expanding as more eSIM-compatible
@@ -16,7 +16,7 @@
             that country and carrier-specific restrictions may apply.)* As of
             October 2023, the eSIM-compatible devices are as follows:
           </p>
-          <div class="row">
+          <div class="row mb-3">
             <div class="col-md-6">
               <p>
                 <b>Brand</b>
@@ -31,7 +31,6 @@
                 </option>
               </select>
             </div>
-            <!-- {{ filteredModels }} -->
             <div class="col-md-6">
               <p>
                 <b>Model</b>
@@ -47,6 +46,14 @@
               </select>
             </div>
           </div>
+          <p>
+            Still not sure if your device is eSIM-capable and unlocked? You can
+            check this in your device settings: <br />
+            Check if my iOS device supports eSIM? <br />
+            Check if my Android device supports eSIM? <br />
+            Use an eSIM to get a cellular data connection on your Microsoft
+            Windows PC.
+          </p>
         </div>
         <div class="modal-footer d-flex justify-content-center">
           <div class="col-md-6">

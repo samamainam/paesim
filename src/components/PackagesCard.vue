@@ -94,8 +94,8 @@
   <div v-else class="row d-flex justify-content-center text-center my-2">
     <h1>No Matching Packages</h1>
   </div>
-  <div class="row justify-content-center text-center my-100">
-    <div class="col">
+  <div class="row justify-content-center text-center g-0">
+    <div class="col-5">
       <button type="button" class="btn show-more-button">
         Show 200+ Countries
       </button>

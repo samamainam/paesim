@@ -1,6 +1,8 @@
 <template>
   <div v-if="selectedPackage">
     <transition name="modal">
+      <!-- <div class="modal"> -->
+      <!-- <div class="modal-dialog" role="document"> -->
       <div class="modal-mask">
         <div class="modal-wrapper">
           <div class="modal-container">
@@ -66,7 +68,7 @@
                 </div>
               </div>
             </div>
-            <div class="modal-body">
+            <div class="modal-body modal-dialog-scrollable">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
@@ -226,6 +228,8 @@
           </div>
         </div>
       </div>
+      <!-- </div> -->
+      <!-- </div> -->
     </transition>
   </div>
 </template>
@@ -312,7 +316,10 @@ export default {
 .modal-body {
   padding: 20px;
 }
-
+.modal-dialog-scrollable {
+  max-height: 50vh; /* Set the desired max height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
 .modal-footer {
   display: flex;
   /* justify-content: center;
