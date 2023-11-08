@@ -1,0 +1,2687 @@
+{
+  "packages": [
+    {
+      "slug": "united-states",
+      "country_code": "US",
+      "title": "United States",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5217bedf-ba1d-47e2-afe2-89f36dc928d3.png"
+      },
+      "operators": [
+        {
+          "id": 537,
+          "style": "light",
+          "gradient_start": "#0f1b3f",
+          "gradient_end": "#194281",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Change",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on T-Mobile and AT&T networks in the United States of America.",
+            "Coverage in Alaska is not guaranteed."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/dec53cb0-3f09-4328-a9c1-14ad5e1a18c7.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": "Coverage in Alaska is not guaranteed. The hotspot feature is restricted on AT&T network.",
+          "coverages": [
+            {
+              "name": "US",
+              "networks": [
+                {
+                  "name": "AT&T",
+                  "types": ["LTE"]
+                },
+                {
+                  "name": "T-Mobile",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "change-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "change-30days-3gb",
+              "type": "sim",
+              "price": 11,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "change-30days-5gb",
+              "type": "sim",
+              "price": 16,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "change-30days-10gb",
+              "type": "sim",
+              "price": 26,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "change-15days-2gb",
+              "type": "sim",
+              "price": 8,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "US",
+              "title": "United States",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/5217bedf-ba1d-47e2-afe2-89f36dc928d3.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "france",
+      "country_code": "FR",
+      "title": "France",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/0c898a76-aa43-4b5a-b502-7afb8f917591.png"
+      },
+      "operators": [
+        {
+          "id": 264,
+          "style": "light",
+          "gradient_start": "#713e8f",
+          "gradient_end": "#66367c",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Bonbon Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "rh",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Orange network in France."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/762cf29b-72ff-4d45-affe-07306eefc36a.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "FR",
+              "networks": [
+                {
+                  "name": "Vodafone",
+                  "types": ["3G"]
+                },
+                {
+                  "name": "Mama mia",
+                  "types": ["4G"]
+                },
+                {
+                  "name": "Orange",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "bonbon-mobile-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "bonbon-mobile-30days-3gb",
+              "type": "sim",
+              "price": 10,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "bonbon-mobile-30days-10gb",
+              "type": "sim",
+              "price": 23,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "bonbon-mobile-15days-2gb",
+              "type": "sim",
+              "price": 7.5,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            },
+            {
+              "id": "bonbon-mobile-30days-20gb",
+              "type": "sim",
+              "price": 36,
+              "amount": 20480,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "20 GB - 30 Days",
+              "data": "20 GB",
+              "short_info": null
+            },
+            {
+              "id": "bonbon-mobile-30days-5gb",
+              "type": "sim",
+              "price": 14,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "FR",
+              "title": "France",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/0c898a76-aa43-4b5a-b502-7afb8f917591.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "china",
+      "country_code": "CN",
+      "title": "China",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/33ac2270-1e02-42ad-95a3-5debda42c1b0.png"
+      },
+      "operators": [
+        {
+          "id": 540,
+          "style": "light",
+          "gradient_start": "#cb0004",
+          "gradient_end": "#890018",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Chinacom",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the China Unicom network in China."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/7fc3329b-eb84-4bd2-b0dc-cc9ed3182253.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "CN",
+              "networks": [
+                {
+                  "name": "China Unicom",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "chinacom-7days-1gb",
+              "type": "sim",
+              "price": 7,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "chinacom-30days-3gb",
+              "type": "sim",
+              "price": 14,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "chinacom-30days-5gb",
+              "type": "sim",
+              "price": 21,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "CN",
+              "title": "China",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/33ac2270-1e02-42ad-95a3-5debda42c1b0.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spain",
+      "country_code": "ES",
+      "title": "Spain",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/9f03ac70-d0c9-479b-ba86-082450d552b9.png"
+      },
+      "operators": [
+        {
+          "id": 550,
+          "style": "light",
+          "gradient_start": "#b40b1e",
+          "gradient_end": "#d20d23",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Guay Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Movistar network in Spain."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/d1df459e-7f1e-4bee-b405-6d52bbf4acee.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "ES",
+              "networks": [
+                {
+                  "name": "Movistar",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "guay-mobile-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "guay-mobile-30days-3gb",
+              "type": "sim",
+              "price": 8.5,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "guay-mobile-30days-5gb",
+              "type": "sim",
+              "price": 12,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "guay-mobile-30days-10gb",
+              "type": "sim",
+              "price": 18,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "guay-mobile-15days-2gb",
+              "type": "sim",
+              "price": 6.5,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            },
+            {
+              "id": "guay-mobile-30days-20gb",
+              "type": "sim",
+              "price": 26,
+              "amount": 20480,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "20 GB - 30 Days",
+              "data": "20 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "ES",
+              "title": "Spain",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/9f03ac70-d0c9-479b-ba86-082450d552b9.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "italy",
+      "country_code": "IT",
+      "title": "Italy",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/828a79d8-be20-4ee5-9304-45e081b6faaa.png"
+      },
+      "operators": [
+        {
+          "id": 463,
+          "style": "light",
+          "gradient_start": "#ce2c38",
+          "gradient_end": "#c10207",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Mamma Mia",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the H3G and Wind networks in Italy."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/d35bbdbb-6401-4c8c-87e7-3229e870ece8.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "IT",
+              "networks": [
+                {
+                  "name": "H3G",
+                  "types": ["3G"]
+                },
+                {
+                  "name": "Wind",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "mamma-mia-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "mamma-mia-30days-3gb",
+              "type": "sim",
+              "price": 10,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "mamma-mia-30days-5gb",
+              "type": "sim",
+              "price": 14.5,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "mamma-mia-30days-10gb",
+              "type": "sim",
+              "price": 16,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "mamma-mia-15days-2gb",
+              "type": "sim",
+              "price": 8,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "IT",
+              "title": "Italy",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/828a79d8-be20-4ee5-9304-45e081b6faaa.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "turkey",
+      "country_code": "TR",
+      "title": "Turkey",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/09368ab7-41b7-461a-bc62-b19ff6f81710.png"
+      },
+      "operators": [
+        {
+          "id": 516,
+          "style": "light",
+          "gradient_start": "#b91f35",
+          "gradient_end": "#ad1e35",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Merhaba",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "airalo2",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Turk Telekom/AVEA network in Turkey.",
+            "This eSIM does not cover Northern Cyprus."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/8bafe89f-479d-478a-b086-09e08ed7faa2.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": "This eSIM does not cover Northern Cyprus.",
+          "coverages": [
+            {
+              "name": "TR",
+              "networks": [
+                {
+                  "name": "Turk Telekom (Avea)",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "merhaba-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "merhaba-30days-3gb",
+              "type": "sim",
+              "price": 8,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "merhaba-30days-5gb",
+              "type": "sim",
+              "price": 12,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "merhaba-30days-10gb",
+              "type": "sim",
+              "price": 18,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "merhaba-15days-2gb",
+              "type": "sim",
+              "price": 6.5,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            },
+            {
+              "id": "merhaba-30days-20gb",
+              "type": "sim",
+              "price": 26,
+              "amount": 20480,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "20 GB - 30 Days",
+              "data": "20 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "TR",
+              "title": "Turkey",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/09368ab7-41b7-461a-bc62-b19ff6f81710.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "united-kingdom",
+      "country_code": "GB",
+      "title": "United Kingdom",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/268d35fc-58ab-4445-a7e4-0e130d0314ed.png"
+      },
+      "operators": [
+        {
+          "id": 472,
+          "style": "light",
+          "gradient_start": "#01216a",
+          "gradient_end": "#0033a9",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Uki Mobile",
+          "esim_type": "Prepaid",
+          "warning": "This eSIM doesn't come with a number.",
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Telefonica O2 network."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/175a0ed0-28cb-4de1-b6ba-738aa4df9acb.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "GB",
+              "networks": [
+                {
+                  "name": "Telefonica O2",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "uki-mobile-7days-1gb",
+              "type": "sim",
+              "price": 5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "uki-mobile-30days-3gb",
+              "type": "sim",
+              "price": 10,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "uki-mobile-30days-5gb",
+              "type": "sim",
+              "price": 15,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "uki-mobile-30days-10gb",
+              "type": "sim",
+              "price": 22.5,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "uki-mobile-15days-2gb",
+              "type": "sim",
+              "price": 7.5,
+              "amount": 2048,
+              "day": 15,
+              "is_unlimited": false,
+              "title": "2 GB - 15 Days",
+              "data": "2 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "GB",
+              "title": "United Kingdom",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/268d35fc-58ab-4445-a7e4-0e130d0314ed.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "germany",
+      "country_code": "DE",
+      "title": "Germany",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/02ee9c92-ba8a-42ed-a79f-82a3f504eb2b.png"
+      },
+      "operators": [
+        {
+          "id": 474,
+          "style": "dark",
+          "gradient_start": "#fdde2d",
+          "gradient_end": "#e7cc2b",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Hallo! Mobil",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the O2 - de network in Germany."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/6bfe33cd-3218-43a2-a463-9ab1b5f19bb9.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "DE",
+              "networks": [
+                {
+                  "name": "O2 - de",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "hallo-mobil-7days-1gb",
+              "type": "sim",
+              "price": 5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hallo-mobil-30days-3gb",
+              "type": "sim",
+              "price": 10,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hallo-mobil-30days-5gb",
+              "type": "sim",
+              "price": 15,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hallo-mobil-30days-10gb",
+              "type": "sim",
+              "price": 22.5,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "DE",
+              "title": "Germany",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/02ee9c92-ba8a-42ed-a79f-82a3f504eb2b.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mexico",
+      "country_code": "MX",
+      "title": "Mexico",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/448726fc-47e8-425b-b4b6-31a4b9c82490.png"
+      },
+      "operators": [
+        {
+          "id": 450,
+          "style": "light",
+          "gradient_start": "#3f0000",
+          "gradient_end": "#94000d",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Chorro Fon",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "airalo",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Movistar and AT&T networks in Mexico."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/69a9b0ab-52c6-4564-8b55-9c513caa17d0.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "MX",
+              "networks": [
+                {
+                  "name": "Movistar",
+                  "types": ["LTE"]
+                },
+                {
+                  "name": "AT&T",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "chorro-fon-7days-1gb",
+              "type": "sim",
+              "price": 9,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "MX",
+              "title": "Mexico",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/448726fc-47e8-425b-b4b6-31a4b9c82490.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": 554,
+          "style": "light",
+          "gradient_start": "#000000",
+          "gradient_end": "#000000",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "dk-test-operator-local-mexico-voice-text",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "singleall",
+          "is_roaming": true,
+          "info": null,
+          "image": null,
+          "plan_type": "data-voice-text",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "MX",
+              "networks": [
+                {
+                  "name": "Test 1",
+                  "types": ["3G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "dk-test-package-mexico",
+              "type": "sim",
+              "price": 7,
+              "amount": 1024,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "1 GB - 15 SMS - 2000 Mins - 30 Days",
+              "data": "1 GB",
+              "short_info": null
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "MX",
+              "title": "Mexico",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/448726fc-47e8-425b-b4b6-31a4b9c82490.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hong-kong",
+      "country_code": "HK",
+      "title": "Hong Kong",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/ca6cf959-521d-47dc-ad83-3249deb1ed2f.png"
+      },
+      "operators": [
+        {
+          "id": 423,
+          "style": "light",
+          "gradient_start": "#dd2803",
+          "gradient_end": "#ff6646",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Hkmobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM. ",
+            "Rechargeable online with no expiry.  ",
+            "Operates on the 3HK network in Hong Kong."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/1b6f12d9-ebd6-4716-b0da-ffa1b095a6a6.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "HK",
+              "networks": [
+                {
+                  "name": "3HK",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "hkmobile-7days-1gb",
+              "type": "sim",
+              "price": 5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hkmobile-30days-3gb",
+              "type": "sim",
+              "price": 9,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hkmobile-30days-5gb",
+              "type": "sim",
+              "price": 13,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "HK",
+              "title": "Hong Kong",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/ca6cf959-521d-47dc-ad83-3249deb1ed2f.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "malaysia",
+      "country_code": "MY",
+      "title": "Malaysia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/6ce40fe1-8405-477f-bedb-1a5277c92f85.png"
+      },
+      "operators": [
+        {
+          "id": 122,
+          "style": "light",
+          "gradient_start": "#010068",
+          "gradient_end": "#0100ac",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Sambungkan",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "globaldata",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on Digi, Maxis and U Mobile networks in Malaysia."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/e5260691-6f0e-4bf1-aeac-63932f1c1081.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "MY",
+              "networks": [
+                {
+                  "name": "Digi",
+                  "types": ["LTE"]
+                },
+                {
+                  "name": "Maxis",
+                  "types": ["LTE"]
+                },
+                {
+                  "name": "U Mobile",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "sambungkan-7days-1gb",
+              "type": "sim",
+              "price": 4.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "sambungkan-30days-3gb",
+              "type": "sim",
+              "price": 9,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "sambungkan-30days-5gb",
+              "type": "sim",
+              "price": 13,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "sambungkan-30days-10gb",
+              "type": "sim",
+              "price": 25,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "MY",
+              "title": "Malaysia",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/6ce40fe1-8405-477f-bedb-1a5277c92f85.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "greece",
+      "country_code": "GR",
+      "title": "Greece",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/2fbb44c7-7ee5-4ad7-9b35-cd954a8b9a23.png"
+      },
+      "operators": [
+        {
+          "id": 549,
+          "style": "light",
+          "gradient_start": "#166596",
+          "gradient_end": "#115b8a",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Meraki Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Wind network in Greece."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/f14dff44-af5a-466a-8434-c6461ab0fea7.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "GR",
+              "networks": [
+                {
+                  "name": "Wind",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "meraki-mobile-7days-1gb",
+              "type": "sim",
+              "price": 5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "meraki-mobile-30days-3gb",
+              "type": "sim",
+              "price": 9,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "meraki-mobile-30days-5gb",
+              "type": "sim",
+              "price": 13,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "meraki-mobile-30days-10gb",
+              "type": "sim",
+              "price": 25,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "GR",
+              "title": "Greece",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/2fbb44c7-7ee5-4ad7-9b35-cd954a8b9a23.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canada",
+      "country_code": "CA",
+      "title": "Canada",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5f5333a3-caf9-4cb9-a0c9-dcd852ba1ef3.png"
+      },
+      "operators": [
+        {
+          "id": 446,
+          "style": "light",
+          "gradient_start": "#f51200",
+          "gradient_end": "#912123",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Tuque Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Rogers network in Canada."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/d23b7313-1f16-4cfe-8878-9858bf55dd84.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "CA",
+              "networks": [
+                {
+                  "name": "Rogers",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "tuque-mobile-7days-1gb",
+              "type": "sim",
+              "price": 7.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "tuque-mobile-30days-3gb",
+              "type": "sim",
+              "price": 17.5,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "tuque-mobile-30days-5gb",
+              "type": "sim",
+              "price": 25,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "tuque-mobile-30days-10gb",
+              "type": "sim",
+              "price": 36,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "CA",
+              "title": "Canada",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/5f5333a3-caf9-4cb9-a0c9-dcd852ba1ef3.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "japan",
+      "country_code": "JP",
+      "title": "Japan",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/abcdb132-c40f-4f28-8448-2b985be75f32.png"
+      },
+      "operators": [
+        {
+          "id": 541,
+          "style": "light",
+          "gradient_start": "#e94242",
+          "gradient_end": "#d23c3c",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Moshi Moshi",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM. ",
+            "Rechargeable online with no expiry.  ",
+            "Operates on the Softbank network in Japan."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/43d99fc7-54e6-468d-b34f-bb2ba7ccb3ce.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "JP",
+              "networks": [
+                {
+                  "name": "Softbank",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "moshi-moshi-7days-1gb",
+              "type": "sim",
+              "price": 6,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "moshi-moshi-30days-3gb",
+              "type": "sim",
+              "price": 14,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "JP",
+              "title": "Japan",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/abcdb132-c40f-4f28-8448-2b985be75f32.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "singapore",
+      "country_code": "SG",
+      "title": "Singapore",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/c986d7c5-9001-499a-bb59-bb9980e64c22.png"
+      },
+      "operators": [
+        {
+          "id": 510,
+          "style": "dark",
+          "gradient_start": "#8897ff",
+          "gradient_end": "#ced9fd",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Connect Lah!",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Starhub network in Singapore."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/18c47f8b-bc1d-4bcc-bc07-f8f8e2cc754c.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "SG",
+              "networks": [
+                {
+                  "name": "Starhub",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "connect-lah-7days-1gb",
+              "type": "sim",
+              "price": 7.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "connect-lah-30days-3gb",
+              "type": "sim",
+              "price": 15,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "connect-lah-30days-5gb",
+              "type": "sim",
+              "price": 22.5,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "connect-lah-30days-10gb",
+              "type": "sim",
+              "price": 33.75,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "SG",
+              "title": "Singapore",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/c986d7c5-9001-499a-bb59-bb9980e64c22.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aruba",
+      "country_code": "AW",
+      "title": "Aruba",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/684514f2-a082-4814-80ed-bd8444199091.png"
+      },
+      "operators": [
+        {
+          "id": 523,
+          "style": "light",
+          "gradient_start": "#00a5ca",
+          "gradient_end": "#00e0c4",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Noord Communications",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "airalo",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM. ",
+            "Rechargeable online with no expiry.  ",
+            "Operates on the SETAR network in Aruba."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/c40cac01-6c23-4524-a9d1-ee02cc7bd26c.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AW",
+              "networks": [
+                {
+                  "name": "Setar",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "noord-communications-7days-1gb",
+              "type": "sim",
+              "price": 9.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AW",
+              "title": "Aruba",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/684514f2-a082-4814-80ed-bd8444199091.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "afghanistan",
+      "country_code": "AF",
+      "title": "Afghanistan",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5594d9ca-3574-4189-9e7d-73ef29bb5421.png"
+      },
+      "operators": [
+        {
+          "id": 334,
+          "style": "light",
+          "gradient_start": "#e20017",
+          "gradient_end": "#cb0116",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Sohbat Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "3G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the MTN network in Afghanistan."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/4673dc61-d97c-4757-8ac5-5891b872f4c7.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AF",
+              "networks": [
+                {
+                  "name": "MTN",
+                  "types": ["3G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "sohbat-mobile-7days-1gb",
+              "type": "sim",
+              "price": 8,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "sohbat-mobile-30days-3gb",
+              "type": "sim",
+              "price": 16,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AF",
+              "title": "Afghanistan",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/5594d9ca-3574-4189-9e7d-73ef29bb5421.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "anguilla",
+      "country_code": "AI",
+      "title": "Anguilla",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/3b275995-4994-4782-a756-027069b2807e.png"
+      },
+      "operators": [
+        {
+          "id": 236,
+          "style": "dark",
+          "gradient_start": "#afe4f7",
+          "gradient_end": "#b5eafd",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Dolphin Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "airalo1",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Flow network in Anguilla."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/30216707-6537-47d7-9a81-bee99835a2cd.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AI",
+              "networks": [
+                {
+                  "name": "Flow",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "dolphin-mobile-7days-1gb",
+              "type": "sim",
+              "price": 9.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AI",
+              "title": "Anguilla",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/3b275995-4994-4782-a756-027069b2807e.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "albania",
+      "country_code": "AL",
+      "title": "Albania",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/14a24e00-4bea-424a-82f8-f3a368832bda.png"
+      },
+      "operators": [
+        {
+          "id": 197,
+          "style": "light",
+          "gradient_start": "#101523",
+          "gradient_end": "#a90000",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Hej Telecom",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "rh",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM. ",
+            "Rechargeable online with no expiry.  ",
+            "Operates on the Vodafone network in Albania."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/a4d815e9-0f53-487e-be2f-fbf7305beece.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AL",
+              "networks": [
+                {
+                  "name": "Vodafone",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "hej-telecom-7days-1gb",
+              "type": "sim",
+              "price": 8,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hej-telecom-30days-3gb",
+              "type": "sim",
+              "price": 16,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hej-telecom-30days-5gb",
+              "type": "sim",
+              "price": 24,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "hej-telecom-30days-10gb",
+              "type": "sim",
+              "price": 36,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AL",
+              "title": "Albania",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/14a24e00-4bea-424a-82f8-f3a368832bda.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "united-arab-emirates",
+      "country_code": "AE",
+      "title": "United Arab Emirates",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/af6ab1fd-5f6f-467e-982a-b4cebf62166e.png"
+      },
+      "operators": [
+        {
+          "id": 511,
+          "style": "dark",
+          "gradient_start": "#F17F24",
+          "gradient_end": "#FFDE82",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Burj Mobile",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Etisalat and Du networks in the United Arab Emirates."
+          ],
+          "image": {
+            "width": 1012,
+            "height": 638,
+            "url": "https://sandbox.airalo.com/images/f170b567-ca38-4844-950a-d9662d7b76eb.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AE",
+              "networks": [
+                {
+                  "name": "Etisalat",
+                  "types": ["4G"]
+                },
+                {
+                  "name": "Du",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "burj-mobile-3days-500mb",
+              "type": "sim",
+              "price": 8,
+              "amount": 500,
+              "day": 3,
+              "is_unlimited": false,
+              "title": "500 MB - 3 Days",
+              "data": "500 MB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "burj-mobile-7days-1gb",
+              "type": "sim",
+              "price": 15,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "burj-mobile-30days-3gb",
+              "type": "sim",
+              "price": 45,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "burj-mobile-30days-5gb",
+              "type": "sim",
+              "price": 60,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AE",
+              "title": "United Arab Emirates",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/af6ab1fd-5f6f-467e-982a-b4cebf62166e.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "argentina",
+      "country_code": "AR",
+      "title": "Argentina",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/a4369e1b-a2dc-441f-9625-5f6c29b5fcbb.png"
+      },
+      "operators": [
+        {
+          "id": 238,
+          "style": "light",
+          "gradient_start": "#579ae8",
+          "gradient_end": "#397cc3",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Abrazo!",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM. ",
+            "Rechargeable online with no expiry.  ",
+            "Operates on the Telecom Personal network in Argentina."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/ac784326-9494-4676-a1ff-10ef4b225d5a.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AR",
+              "networks": [
+                {
+                  "name": "Telecom Personal",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "abrazo-7days-1gb",
+              "type": "sim",
+              "price": 6.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "abrazo-30days-3gb",
+              "type": "sim",
+              "price": 13,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AR",
+              "title": "Argentina",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/a4369e1b-a2dc-441f-9625-5f6c29b5fcbb.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "armenia",
+      "country_code": "AM",
+      "title": "Armenia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/2a63eb3a-c9d0-4f62-873a-5cc8dd10d6b2.png"
+      },
+      "operators": [
+        {
+          "id": 239,
+          "style": "dark",
+          "gradient_start": "#ff5c07",
+          "gradient_end": "#ffcd01",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Arpi Telecom",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "3G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Beeline network in Armenia."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/8458a70c-e9f9-4a67-81ac-3d48e2727038.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AM",
+              "networks": [
+                {
+                  "name": "Beeline",
+                  "types": ["3G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "arpi-telecom-7-days-1gb",
+              "type": "sim",
+              "price": 7,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "arpi-telecom-30days-3gb",
+              "type": "sim",
+              "price": 14,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            },
+            {
+              "id": "arpi-telecom-30days-5gb",
+              "type": "sim",
+              "price": 21,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AM",
+              "title": "Armenia",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/2a63eb3a-c9d0-4f62-873a-5cc8dd10d6b2.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "antigua-and-barbuda",
+      "country_code": "AG",
+      "title": "Antigua And Barbuda",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/6cdc08df-427c-45ac-b3a9-949e29f006bb.png"
+      },
+      "operators": [
+        {
+          "id": 237,
+          "style": "light",
+          "gradient_start": "#311876",
+          "gradient_end": "#3f1f99",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "17 miles",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "manual",
+          "apn_value": "airalo1",
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Flow network in Antigua & Barbuda."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/33fee387-7cfe-45aa-af59-ad0fe17b11c4.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AG",
+              "networks": [
+                {
+                  "name": "Flow",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "17-miles-7days-1gb",
+              "type": "sim",
+              "price": 9.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a phone number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AG",
+              "title": "Antigua And Barbuda",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/6cdc08df-427c-45ac-b3a9-949e29f006bb.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "australia",
+      "country_code": "AU",
+      "title": "Australia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/7eb3b9ab-2fa8-4906-8284-4551bd225b8b.png"
+      },
+      "operators": [
+        {
+          "id": 241,
+          "style": "light",
+          "gradient_start": "#00008f",
+          "gradient_end": "#4e51ff",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Yes! Go!",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "4G Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on the Optus network in Australia."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/2975751e-9827-4a6f-867b-3e9c7a3e0ba2.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AU",
+              "networks": [
+                {
+                  "name": "Optus",
+                  "types": ["4G"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "yes-go-7days-1gb",
+              "type": "sim",
+              "price": 5.5,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "yes-go-30days-3gb",
+              "type": "sim",
+              "price": 11,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "yes-go-30days-5gb",
+              "type": "sim",
+              "price": 16.5,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "yes-go-30days-10gb",
+              "type": "sim",
+              "price": 24.75,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AU",
+              "title": "Australia",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/7eb3b9ab-2fa8-4906-8284-4551bd225b8b.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "austria",
+      "country_code": "AT",
+      "title": "Austria",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/feb05d59-b82c-43cd-a099-e58691b9ff3b.png"
+      },
+      "operators": [
+        {
+          "id": 545,
+          "style": "light",
+          "gradient_start": "#b81514",
+          "gradient_end": "#ff4c41",
+          "type": "local",
+          "is_prepaid": false,
+          "title": "Viennetz Mobil",
+          "esim_type": "Prepaid",
+          "warning": null,
+          "apn_type": "automatic",
+          "apn_value": null,
+          "is_roaming": true,
+          "info": [
+            "LTE Data-only eSIM.",
+            "Rechargeable online with no expiry.",
+            "Operates on 3AT network in Austria."
+          ],
+          "image": {
+            "width": 1035,
+            "height": 653,
+            "url": "https://sandbox.airalo.com/images/a59b1a8a-350e-4b6f-ba47-1124bf497c4f.png"
+          },
+          "plan_type": "data",
+          "activation_policy": "first-usage",
+          "is_kyc_verify": false,
+          "rechargeability": true,
+          "other_info": null,
+          "coverages": [
+            {
+              "name": "AT",
+              "networks": [
+                {
+                  "name": "3AT",
+                  "types": ["LTE"]
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "id": "viennetz-mobil-7days-1gb",
+              "type": "sim",
+              "price": 7,
+              "amount": 1024,
+              "day": 7,
+              "is_unlimited": false,
+              "title": "1 GB - 7 Days",
+              "data": "1 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "viennetz-mobil-30days-3gb",
+              "type": "sim",
+              "price": 14,
+              "amount": 3072,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "3 GB - 30 Days",
+              "data": "3 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "viennetz-mobil-30days-5gb",
+              "type": "sim",
+              "price": 21,
+              "amount": 5120,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "5 GB - 30 Days",
+              "data": "5 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            },
+            {
+              "id": "viennetz-mobil-30days-10gb",
+              "type": "sim",
+              "price": 31.5,
+              "amount": 10240,
+              "day": 30,
+              "is_unlimited": false,
+              "title": "10 GB - 30 Days",
+              "data": "10 GB",
+              "short_info": "This eSIM doesn't come with a number."
+            }
+          ],
+          "countries": [
+            {
+              "country_code": "AT",
+              "title": "Austria",
+              "image": {
+                "width": 132,
+                "height": 99,
+                "url": "https://sandbox.airalo.com/images/feb05d59-b82c-43cd-a099-e58691b9ff3b.png"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

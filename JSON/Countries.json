@@ -1,0 +1,49 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "United States",
+      "abbreviation": "us"
+    },
+    {
+      "id": 2,
+      "name": "United Kingdom",
+      "abbreviation": "gb-eng"
+    },
+    {
+      "id": 3,
+      "name": "Canada",
+      "abbreviation": "ca"
+    },
+    {
+      "id": 4,
+      "name": "Australia",
+      "abbreviation": "au"
+    },
+    {
+      "id": 5,
+      "name": "Germany",
+      "abbreviation": "de"
+    },
+    {
+      "id": 6,
+      "name": "France",
+      "abbreviation": "fr"
+    },
+    {
+      "id": 7,
+      "name": "Italy",
+      "abbreviation": "it"
+    },
+    {
+      "id": 8,
+      "name": "Spain",
+      "abbreviation": "es"
+    },
+    {
+      "id": 10,
+      "name": "China",
+      "abbreviation": "cn"
+    }
+  ]
+}

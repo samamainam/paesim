@@ -1,0 +1,254 @@
+{
+  "countries": [
+    {
+      "slug": "united-states",
+      "country_code": "US",
+      "title": "United States",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5217bedf-ba1d-47e2-afe2-89f36dc928d3.png"
+      }
+    },
+    {
+      "slug": "france",
+      "country_code": "FR",
+      "title": "France",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/0c898a76-aa43-4b5a-b502-7afb8f917591.png"
+      }
+    },
+    {
+      "slug": "china",
+      "country_code": "CN",
+      "title": "China",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/33ac2270-1e02-42ad-95a3-5debda42c1b0.png"
+      }
+    },
+    {
+      "slug": "spain",
+      "country_code": "ES",
+      "title": "Spain",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/9f03ac70-d0c9-479b-ba86-082450d552b9.png"
+      }
+    },
+    {
+      "slug": "italy",
+      "country_code": "IT",
+      "title": "Italy",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/828a79d8-be20-4ee5-9304-45e081b6faaa.png"
+      }
+    },
+    {
+      "slug": "turkey",
+      "country_code": "TR",
+      "title": "Turkey",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/09368ab7-41b7-461a-bc62-b19ff6f81710.png"
+      }
+    },
+    {
+      "slug": "united-kingdom",
+      "country_code": "GB",
+      "title": "United Kingdom",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/268d35fc-58ab-4445-a7e4-0e130d0314ed.png"
+      }
+    },
+    {
+      "slug": "germany",
+      "country_code": "DE",
+      "title": "Germany",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/02ee9c92-ba8a-42ed-a79f-82a3f504eb2b.png"
+      }
+    },
+    {
+      "slug": "mexico",
+      "country_code": "MX",
+      "title": "Mexico",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/448726fc-47e8-425b-b4b6-31a4b9c82490.png"
+      }
+    },
+    {
+      "slug": "hong-kong",
+      "country_code": "HK",
+      "title": "Hong Kong",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/ca6cf959-521d-47dc-ad83-3249deb1ed2f.png"
+      }
+    },
+    {
+      "slug": "malaysia",
+      "country_code": "MY",
+      "title": "Malaysia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/6ce40fe1-8405-477f-bedb-1a5277c92f85.png"
+      }
+    },
+    {
+      "slug": "greece",
+      "country_code": "GR",
+      "title": "Greece",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/2fbb44c7-7ee5-4ad7-9b35-cd954a8b9a23.png"
+      }
+    },
+    {
+      "slug": "canada",
+      "country_code": "CA",
+      "title": "Canada",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5f5333a3-caf9-4cb9-a0c9-dcd852ba1ef3.png"
+      }
+    },
+    {
+      "slug": "japan",
+      "country_code": "JP",
+      "title": "Japan",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/abcdb132-c40f-4f28-8448-2b985be75f32.png"
+      }
+    },
+    {
+      "slug": "singapore",
+      "country_code": "SG",
+      "title": "Singapore",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/c986d7c5-9001-499a-bb59-bb9980e64c22.png"
+      }
+    },
+    {
+      "slug": "aruba",
+      "country_code": "AW",
+      "title": "Aruba",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/684514f2-a082-4814-80ed-bd8444199091.png"
+      }
+    },
+    {
+      "slug": "afghanistan",
+      "country_code": "AF",
+      "title": "Afghanistan",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/5594d9ca-3574-4189-9e7d-73ef29bb5421.png"
+      }
+    },
+    {
+      "slug": "anguilla",
+      "country_code": "AI",
+      "title": "Anguilla",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/3b275995-4994-4782-a756-027069b2807e.png"
+      }
+    },
+    {
+      "slug": "albania",
+      "country_code": "AL",
+      "title": "Albania",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/14a24e00-4bea-424a-82f8-f3a368832bda.png"
+      }
+    },
+    {
+      "slug": "united-arab-emirates",
+      "country_code": "AE",
+      "title": "United Arab Emirates",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/af6ab1fd-5f6f-467e-982a-b4cebf62166e.png"
+      }
+    },
+    {
+      "slug": "argentina",
+      "country_code": "AR",
+      "title": "Argentina",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/a4369e1b-a2dc-441f-9625-5f6c29b5fcbb.png"
+      }
+    },
+    {
+      "slug": "armenia",
+      "country_code": "AM",
+      "title": "Armenia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/2a63eb3a-c9d0-4f62-873a-5cc8dd10d6b2.png"
+      }
+    },
+    {
+      "slug": "antigua-and-barbuda",
+      "country_code": "AG",
+      "title": "Antigua And Barbuda",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/6cdc08df-427c-45ac-b3a9-949e29f006bb.png"
+      }
+    },
+    {
+      "slug": "australia",
+      "country_code": "AU",
+      "title": "Australia",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/7eb3b9ab-2fa8-4906-8284-4551bd225b8b.png"
+      }
+    },
+    {
+      "slug": "austria",
+      "country_code": "AT",
+      "title": "Austria",
+      "image": {
+        "width": 132,
+        "height": 99,
+        "url": "https://sandbox.airalo.com/images/feb05d59-b82c-43cd-a099-e58691b9ff3b.png"
+      }
+    }
+  ]
+}
