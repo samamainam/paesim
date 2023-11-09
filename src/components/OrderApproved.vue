@@ -27,7 +27,11 @@
         </h5>
         <div class="row">
           <div class="col">
-            <button type="button" class="btn btn-devices me-3">
+            <button
+              type="button"
+              class="btn btn-devices me-3"
+              @click="openModal"
+            >
               <i class="fa-brands fa-android"></i> Android Device
             </button>
             <button type="button" class="btn btn-devices">
@@ -87,12 +91,38 @@
       </div>
     </div>
   </div>
+  <AndroidTips v-if="showModal" @close="openInstallInstructionModal" />
+  <InstallInstructionModal
+    v-if="showInstallInstructionModal"
+    @close="onInstallInstructionModalClose"
+  />
 </template>
 <script>
 import LogoHeader from "./LogoHeader.vue";
+import AndroidTips from "./AndroidTips.vue";
+import InstallInstructionModal from "./InstallInstructionModal.vue";
 export default {
   name: "OrderApproved",
-  components: { LogoHeader },
+  data() {
+    return {
+      showModal: false,
+      showInstallInstructionModal: false,
+    };
+  },
+  methods: {
+    openModal() {
+      console.log("Modal Opening");
+      this.showModal = true;
+    },
+    openInstallInstructionModal() {
+      this.showAndroidTips = false;
+      this.showInstallInstructionModal = true;
+    },
+    onInstallInstructionModalClose() {
+      this.showInstallInstructionModal = false;
+    },
+  },
+  components: { LogoHeader, AndroidTips, InstallInstructionModal },
 };
 </script>
 
