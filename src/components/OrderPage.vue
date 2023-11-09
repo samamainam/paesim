@@ -197,7 +197,7 @@ export default {
     return {
       isTermsChecked: false,
       isDeviceChecked: false,
-      isModalVisible: true,
+      isModalVisible: false,
     };
   },
 

@@ -30,11 +30,15 @@
             <button
               type="button"
               class="btn btn-devices me-3"
-              @click="openModal"
+              @click="openAndroidModal"
             >
               <i class="fa-brands fa-android"></i> Android Device
             </button>
-            <button type="button" class="btn btn-devices">
+            <button
+              type="button"
+              class="btn btn-devices"
+              @click="openAppleModal"
+            >
               <i class="fa-brands fa-android"></i> Apple Device
             </button>
           </div>
@@ -91,38 +95,68 @@
       </div>
     </div>
   </div>
-  <AndroidTips v-if="showModal" @close="openInstallInstructionModal" />
-  <InstallInstructionModal
-    v-if="showInstallInstructionModal"
-    @close="onInstallInstructionModalClose"
+  <AndroidTips
+    v-if="showAndroidTipsModal"
+    @close="openAndroidInstructionModal"
+  />
+  <AndroidInstructionModal
+    v-if="showAndroidInstructionModal"
+    @close="onAndroidInstructionModalClose"
+  />
+  <AppleTips v-if="showAppleTipsModal" @close="closeAppleTipsModal" />
+  <AppleInstructionModal
+    v-if="showAppleInstructionModal"
+    @close="closeAppleInstructionModal"
   />
 </template>
 <script>
 import LogoHeader from "./LogoHeader.vue";
 import AndroidTips from "./AndroidTips.vue";
-import InstallInstructionModal from "./InstallInstructionModal.vue";
+import AndroidInstructionModal from "./AndroidInstructionModal.vue";
+import AppleTips from "./AppleTips.vue";
+import AppleInstructionModal from "./AppleInstructionModal.vue";
 export default {
   name: "OrderApproved",
   data() {
     return {
-      showModal: false,
-      showInstallInstructionModal: false,
+      showAndroidTipsModal: false,
+      showAndroidInstructionModal: false,
+      showAppleInstructionModal: false,
+      showAppleTipsModal: false,
+      showAppleInstructionModal: false,
     };
   },
   methods: {
-    openModal() {
+    openAndroidModal() {
       console.log("Modal Opening");
-      this.showModal = true;
+      this.showAndroidTipsModal = true;
     },
-    openInstallInstructionModal() {
+    openAndroidInstructionModal() {
       this.showAndroidTips = false;
-      this.showInstallInstructionModal = true;
+      this.showAndroidInstructionModal = true;
     },
-    onInstallInstructionModalClose() {
-      this.showInstallInstructionModal = false;
+    onAndroidInstructionModalClose() {
+      this.showAndroidInstructionModal = false;
+    },
+    openAppleModal() {
+      console.log("Modal Opening");
+      this.showAppleTipsModal = true;
+    },
+    closeAppleTipsModal() {
+      this.showAppleTipsModal = false;
+      this.showAppleInstructionModal = true;
+    },
+    closeAppleInstructionModal() {
+      this.showAppleInstructionModal = false;
     },
   },
-  components: { LogoHeader, AndroidTips, InstallInstructionModal },
+  components: {
+    LogoHeader,
+    AndroidTips,
+    AndroidInstructionModal,
+    AppleTips,
+    AppleInstructionModal,
+  },
 };
 </script>
 
