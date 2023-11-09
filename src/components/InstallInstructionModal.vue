@@ -6,7 +6,7 @@
           <h5 class="modal-title">Installation Instructions</h5>
           <i
             class="fa-regular fa-circle-xmark close"
-            @click="closeIstallModal"
+            @click="closeInstallModal"
           ></i>
         </div>
         <div class="modal-body modal-dialog-scrollable">
@@ -126,10 +126,200 @@
                             </p>
                           </div>
                         </div>
+                        <div
+                          class="row mt-3 d-flex justify-content-start text-start"
+                        >
+                          <div class="m-0">
+                            <p>Step 2/2 - Access Data</p>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="step-1 my-3">
+                              <div class="package-card p-2">
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> NETWORK </b>
+                                    <br />
+                                    02-UK
+                                    <br />
+                                    Three UK
+                                  </p>
+                                  <hr />
+                                </div>
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> APN </b>
+                                    <br />
+                                    internet
+                                  </p>
+                                  <hr />
+                                </div>
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> DATA ROAMING </b>
+                                    <br />
+                                    ON
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <p>
+                              1. Go to “SIM card manager”, then turn on your
+                              eSIM by enabling the toggle, then tap “OK” on your
+                              device. <br />
+                              2. Select your eSIM for mobile data.
+                              <br />
+                              3. Go to “Connections”, then tap “Mobile
+                              networks”.<br />
+                              4. Enable the “Data roaming” toggle.
+                              <br />
+                              5. Tap “Access Point Names”, then tap “Add” on the
+                              right top of the screen.<br />
+                              6. Enter the APN by copying it into the Name and
+                              APN fields. <br />
+                              7. Tap the three dots on the right top of the
+                              screen, tap “Save”, then select the APN you have
+                              saved by clicking the radio button. <br />
+                              8. Tap “Network operators”, tap the “Select
+                              automatically” toggle then choose the supported
+                              network available manually if your eSIM has
+                              connected to the wrong network.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                       <div v-if="activeButton === 'button2'">
-                        <h3>Content for Button 2</h3>
-                        <p>This is the content related to Button 2.</p>
+                        <div
+                          class="row mt-3 d-flex justify-content-start text-start"
+                        >
+                          <div class="m-0">
+                            <p>Step 1/2 - Install eSIM</p>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="step-1 my-3">
+                              <div class="package-card">
+                                <div
+                                  class="qr-section p-3 m-0 d-flex justify-content-center text-center"
+                                >
+                                  <img src="/qr.png" alt="" width="100px" />
+                                </div>
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 d-flex justify-content-center text-center"
+                                >
+                                  <p>
+                                    Scan the QR code by printing out or
+                                    displaying the code on another device to
+                                    install your eSIM.<br />
+                                    *Make sure your device has a stable internet
+                                    connection before installing.
+                                  </p>
+                                </div>
+                                <div
+                                  class="btn-section p-2 m-0 d-flex justify-content-center text-center"
+                                >
+                                  <button class="btn btn-sm share-btn">
+                                    SHARE QR CODE
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <p>
+                              1. Go to <b>“Settings”</b>, tap
+                              <b>“Network & internet”</b>, then tap
+                              <b>“(+)”</b> next to the SIMs section, if it’s not
+                              available tap <b>“SIMs/Mobile network”</b> on your
+                              device. <br />
+                              2. Tap <b>“Download a SIM instead?”</b>, then tap
+                              <b>“Next”</b>.
+                              <br />
+                              3. Tap <b>“Use a different network”</b> if you
+                              need to confirm your network. <br />
+                              4. Scan the QR code, then tap
+                              <b>“Download/Activate”</b>.
+                              <br />
+                              5. Tap <b>“Settings/Done”</b> when you see the
+                              Download Finished screen.
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="row mt-3 d-flex justify-content-start text-start"
+                        >
+                          <div class="m-0">
+                            <p>Step 2/2 - Access Data</p>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="step-1 my-3">
+                              <div class="package-card p-2">
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> NETWORK </b>
+                                    <br />
+                                    02-UK
+                                    <br />
+                                    Three UK
+                                  </p>
+                                  <hr />
+                                </div>
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> APN </b>
+                                    <br />
+                                    internet
+                                  </p>
+                                  <hr />
+                                </div>
+                                <div
+                                  class="txt-section pt-2 px-3 m-0 text-start"
+                                >
+                                  <p>
+                                    <b> DATA ROAMING </b>
+                                    <br />
+                                    ON
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <p>
+                              1. Go to <b>“SIMs”</b>, then select the recently
+                              downloaded eSIM on your device. <br />
+                              2. Enable the<b> “Use SIM”</b> toggle, then tap
+                              <b>“Yes”</b>.
+                              <br />
+                              3. Enable the <b>“Mobile data”</b> toggle. <br />
+                              4. Enable the <b>“Roaming”</b> toggle, then tap
+                              <b>“OK”</b>.
+                              <br />
+                              5. Tap the<b> “Automatically select network”</b>
+                              toggle then choose the supported network manually
+                              if your eSIM has connected to the wrong network.
+                              <br />
+                              6. Tap <b>“Access Point Names”</b>, then tap
+                              “(+)”.
+                              <br />
+                              7. Enter the APN by copying it into the Name and
+                              APN fields. <br />
+                              8. Tap the three dots on the right top of the
+                              screen, tap <b>“Save”</b>, then select the APN you
+                              have saved by clicking the radio button.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -154,7 +344,7 @@
             <button
               type="button"
               class="btn got-it-btn text-white"
-              @click="closeIstallModal"
+              @click="closeInstallModal"
             >
               OK, Got It
             </button>
@@ -175,7 +365,7 @@ export default {
     };
   },
   methods: {
-    closeIstallModal() {
+    closeInstallModal() {
       this.isOpenIstallModal = false;
       this.$emit("close");
     },
