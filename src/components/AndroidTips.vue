@@ -87,7 +87,7 @@ export default {
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
 }
 .modal-conta .got-it-btn {
   color: #fff;
